@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 40px 20px;
+  background: #f5f0e8;
+  color: #302c28;
+  font-family: Georgia, serif;
+  text-align: center;
+}
+
+.sequence {
+  display: flex;
+  gap: 16px;
+  max-width: 1100px;
+  margin: 30px auto;
+}
+
+.sequence img {
+  width: calc((100% - 32px) / 3);
+  height: 250px;
+  object-fit: contain;
+  background: #080808;
+}
+
+button {
+  padding: 10px 20px;
+  font: inherit;
+  cursor: pointer;
+}
