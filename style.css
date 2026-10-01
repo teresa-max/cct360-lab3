@@ -73,17 +73,33 @@ button:focus-visible {
   outline-offset: 4px;
 }
 
-@media (max-width: 700px) {
-  body {
-    padding: 35px 20px;
-  }
+.photo-credits {
+  max-width: 1000px;
+  margin: 55px auto 0;
+  padding-top: 20px;
+  border-top: 1px solid #444;
+  color: #bcb5aa;
+  font-size: 12px;
+  line-height: 1.6;
 
-  .sequence {
-    flex-direction: column;
-  }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px 30px;
+}
 
-  .sequence img {
-    width: 100%;
-    height: 260px;
-  }
+.photo-credits h3 {
+  width: 100%;
+  margin: 0 0 10px;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.photo-credits p {
+  margin: 0;
+}
+
+.photo-credits a {
+  color: #eee8df;
+  text-underline-offset: 3px;
 }
